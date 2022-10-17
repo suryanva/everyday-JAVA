@@ -19,7 +19,5 @@ public class DataTypes {
         System.out.println(d6);
         System.out.println(d7);
         System.out.println(d8);
-
-
     }
 }
