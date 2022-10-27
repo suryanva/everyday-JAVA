@@ -24,4 +24,13 @@ class PassengerPlane extends Plane{
 }
 
 public class TypesOfMethods {
+    public static void main(String[] args) {
+        PassengerPlane obj1 = new PassengerPlane();
+        obj1.fly();
+        obj1.zoom();
+
+        Plane obj2 = new PassengerPlane();
+        obj2.fly();
+        ((PassengerPlane) obj2).zoom();// This is called as Downcasting, Parent accessing specilized method from the child class.
+    }
 }
