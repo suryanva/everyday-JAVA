@@ -28,8 +28,8 @@ public class TypesOfMethods {
         PassengerPlane obj1 = new PassengerPlane();
         obj1.fly();
         obj1.zoom();
-
-        Plane obj2 = new PassengerPlane();
+// creating Parent type reference to a child like object is called Upcasting
+        Plane obj2 = new PassengerPlane();//Upcasting
         obj2.fly();
         ((PassengerPlane) obj2).zoom();// This is called as Downcasting, Parent accessing specilized method from the child class.
     }
